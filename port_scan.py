@@ -48,5 +48,5 @@ def main(ip_addr_stripped,target_port_scan_ammount):
 
     else:
         print("-------- Open Ports --------")
-        for port in range(0,100):
+        for port in range(0,target_port_scan_ammount):
             port_scanner(ip_address,port)
